@@ -74,6 +74,23 @@ aside {
     width: 45%
 }
 
+@media screen (max-width: 600px) {
+    
+    body {
+        padding: 5%
+    }
+     
+    nav {
+        boarder: 10px solid red;
+        width: 90%;
+    }
+    
+    #content {
+        width: 90%; 
+        clear: left;
+        margin-left: 0;
+}
+
 footer {
     clear: both;
     font-size: 12px; 
