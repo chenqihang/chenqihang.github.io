@@ -1,0 +1,93 @@
+ @import url(http://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+ @import url(http://fonts.googleapis.com/css?family=Oswald);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 16px/24px 'Oswald', serif;
+    background-color: #F5F367;
+}
+
+*article {
+    font-size: 24px;
+}
+
+h1,h2 {
+    font-family: 'Gloria Hallelujah', sans-serif;
+}
+
+h1 {
+    line-height: 48px;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 8px;
+}
+ 
+p {
+    margin-bottom: 24px;
+}
+
+img {
+    width: 80%;
+}
+
+header {
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 48px;
+}
+
+nav a {
+    border-bottom: 3px ;
+    color: #7B7C78;  
+    display: inline-block;
+    font: 16px/24px 'Gloria Hallelujah', sans-serif;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    border-bottom: 4px solid #5cb0ff;
+}
+
+article h1 {
+    margin-bottom: 8px;
+}
+
+article h2 {
+    margin-bottom: 12px; 
+}
+
+footer {
+    font-family:'Gloria Hallelujah', sans-serif; 
+    background-color: #C60619;
+    clear: both; 
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer p {
+    color: #000000;
+    margin-left: 3px;
+    padding-left: 12px;  
+}
+
+footer li { 
+    color: #000000;
+    font-size: 16px; 
+    margin-left: 3px; 
+    padding-left: 12px;
+    margin: 0px;  
+}
+
+ 
