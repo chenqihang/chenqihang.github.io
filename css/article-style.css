@@ -8,7 +8,7 @@
 
 body {
     font: 16px/24px 'Oswald', serif;
-    background-color: #F5F367;
+    background-color: #000000;
 }
 
 *article {
@@ -16,7 +16,7 @@ body {
 }
 
 h1,h2 {
-    font-family: 'Gloria Hallelujah', sans-serif;
+    font-family: 'Gloria Hallelujah', sans-serif; 
 }
 
 h1 {
@@ -28,21 +28,29 @@ h2 {
     line-height: 32px;
     margin-bottom: 8px;
 }
- 
-p {
-    margin-bottom: 24px;
-}
 
 img {
     width: 80%;
-}
+} 
 
-header {
-    margin-bottom: 10px;
+p {
+    margin-bottom: 24px;
+}
+ 
+header { 
+    margin-bottom: 10px; 
+    margin-right: 10px;
+    clear: both;  
 }
 
 header h1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right:48px;
     font-size: 48px;
+    float: left;  
+    color: #7B7C78;
 }
 
 nav a {
@@ -50,16 +58,22 @@ nav a {
     color: #7B7C78;  
     display: inline-block;
     font: 16px/24px 'Gloria Hallelujah', sans-serif;
-    padding: 10px;
+    height: 40px; 
     text-decoration: none;
+    float: left; 
+    margin-left: 10px; 
+    margin-top: 36px;  
+    border: 0px;
 }
 
-nav a:hover {
-    border-bottom: 4px solid #5cb0ff;
+nav a:hover { 
+    color: #ffffff;
 }
 
+ 
 article h1 {
     margin-bottom: 8px;
+    font-size: 36px;
 }
 
 article h2 {
@@ -69,7 +83,8 @@ article h2 {
 footer {
     font-family:'Gloria Hallelujah', sans-serif; 
     background-color: #C60619;
-    clear: both; 
+    clear: both;  
+    padding: 0; 
 }
 
 footer ul {
@@ -90,4 +105,23 @@ footer li {
     margin: 0px;  
 }
 
+.content {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    clear: both;
+    background-color: #F5F367; 
+}
+
+.content img {
+    margin-bottom: 12px;
+    margin-top: 16px; 
+}
+
+@media screen and (max-width:600px) { 
+        .content p {
+        padding: 0;
+        text-align: center;   
+    }
+
+}
  
