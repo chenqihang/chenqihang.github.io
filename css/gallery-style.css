@@ -24,7 +24,7 @@ h1 {
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 22px;
     line-height: 32px;
     margin-bottom: 8px;
 }
@@ -38,14 +38,14 @@ p {
 }
  
 header { 
-    margin-bottom: 10px; 
+    margin-bottom: 10px;  
     margin-right: 10px;
     clear: both;  
 }
 
 header h1 {
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 26px;
     margin-left: 10px;
     margin-right:48px;
     font-size: 48px;
@@ -77,7 +77,8 @@ article h1 {
 }
 
 article h2 {
-    margin-bottom: 12px; 
+    margin-bottom: 14px; 
+    margin-top: 4px;
 }
 
 footer {
@@ -101,7 +102,7 @@ footer p {
     font-family: 'Oswald', sans-serif; 
     text-align: center;
     clear: both;
-    background-color: #F5F367; 
+    background-color: #F5F367;  
 }
 
 .content img {
@@ -109,11 +110,55 @@ footer p {
     margin-top: 16px; 
 }
 
+.photo img {
+    margin-bottom: -6px;
+}
+
+.photo h3 {
+    background-color: #C60619;
+    padding: 8px 0;
+    text-align: center;
+    text-transform: uppercase; 
+}
+
+.photo p {
+     color: #FFFFFF;
+}
+    
+.photo h3 {
+    background-color: #C60619;
+     
+     
+}
+ 
+.photo h3 a {
+    color: #ffffff;
+    text-decoration: none; 
+}
+
+.photo  { 
+    margin-bottom:2px;
+    text-align: center;
+    clear: both;
+}
+
+.photo img {
+     margin-bottom:1px;
+
+.content {
+    font-family: 'Oswald', sans-serif; 
+    text-align: center;
+    clear: both;
+    background-color: #F5F367; 
+}
+
+ 
+
 @media screen and (max-width:600px) { 
         .content p {
         padding: 0;
-        text-align: center;   
+        text-align: center;  
     }
-
+         
 }
  
