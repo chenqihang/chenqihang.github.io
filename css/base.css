@@ -49,9 +49,10 @@ header h1 {
     margin-left: 10px;
     margin-right:48px;
     font-size: 48px;
-    float: left;  
+    float: left;   
 }
 
+  
 nav a {
     border-bottom: 3px ;
     color: #7B7C78;  
@@ -112,7 +113,94 @@ footer li {
 
 .content img {
     margin-bottom: 12px;
-    margin-top: 16px; 
+    margin-top: 16px;  
+}
+
+.photo img {
+    margin-bottom: -6px;
+}
+
+.photo h3 {
+    background-color: #C60619;
+    padding: 8px 0;
+    text-align: center;
+    text-transform: uppercase; 
+}
+
+.photo p {
+     color: #FFFFFF;
+}
+    
+.photo h3 {
+    background-color: #C60619;  
+}
+ 
+.photo h3 a {
+    color: #ffffff;
+    text-decoration: none; 
+}
+
+.photo  { 
+    margin-bottom:2px;
+    text-align: center;
+    clear: both;
+}
+
+.photo img {
+     margin-bottom:1px;
+}
+ 
+.gallery h1 {
+    color: #7B7C78; 
+    text-decoration: none;
+    text-align: center;
+    padding-top: 160px;
+        
+}
+
+.gallery h2 {
+    color: #7B7C78; 
+    margin-bottom: 14px; 
+    margin-top: 4px;
+    text-align: center;
+}
+
+.about {
+    color: #7B7C78; 
+    text-align: center;
+}
+
+.about h1 {
+    padding-top: 160px;
+}
+
+.article {
+     color: #7B7C78; 
+    text-align: center;
+}
+
+.third {
+    background: #000000;
+}
+  
+.third header {
+    color: #7B7C78;
+}
+
+.second {
+    background: #000000;
+}
+
+.second header h1 { 
+    color: #7B7C78;
+}
+
+.first {
+     background: #000000;
+}
+
+.first header h1 { 
+    color: #7B7C78;
 }
 
 @media screen and (max-width:600px) { 
